@@ -10,7 +10,7 @@ as
 SELECT statusname as "Status"
 	, studentstartdate as "Enrolled"
 	, coursename as "Course"
-	, quartername as "Quarter"
+	, concat(sectionyear, '-', quarterkey, '-', quartername) as "Quarter Year"
 	, sectionyear as "Year"
 	, credits as "Available Credits"
 	FROM public.roster
@@ -20,6 +20,6 @@ SELECT statusname as "Status"
 	join public.student using(studentkey)
 	join public.person using(personkey)
 	join public.status using(statuskey)
-	where studentkey = 179
-	AND quarterkey >= EXTRACT(QUARTER FROM CURRENT_DATE)
+-- 	where studentkey = 179
+-- 	AND quarterkey >= EXTRACT(QUARTER FROM CURRENT_DATE)
 	order by sectionyear, quarterkey asc;
