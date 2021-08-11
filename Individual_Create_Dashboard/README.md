@@ -7,3 +7,5 @@ JOIN pricehistory using(pricehistorykey)
 WHERE sectionyear >= EXTRACT(YEAR from CURRENT_DATE)
 AND quarterkey >= EXTRACT(QUARTER FROM CURRENT_DATE);
 ```
+
+Additionally, I had to create a field in all views of the `Quarter Year` and use this as the join in Tableau, so that the charts would filter accross each other.
