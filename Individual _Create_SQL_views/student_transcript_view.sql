@@ -9,8 +9,7 @@ SELECT
 	, concat(firstname, ' ', lastname) as Student
 -- 	, sectionkey
 	, coursename as "Course"
-	, quartername as "Quarter"
-	, sectionyear as "Year"
+	, concat(sectionyear, '-', quarterkey, '-', quartername) as "Quarter Year"
 	, credits as "Available Credits"
 	, finalgrade as "Grade"
 -- 	studentkey
@@ -21,5 +20,5 @@ SELECT
 	join student using(studentkey)
 	join person using(personkey)
 	join status using(statuskey)
-	where studentkey = 179
+-- 	where studentkey = 179
 	order by sectionyear, quarterkey asc;
