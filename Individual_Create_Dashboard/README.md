@@ -10,4 +10,4 @@ AND quarterkey >= EXTRACT(QUARTER FROM CURRENT_DATE);
 
 Additionally, I had to create a field in all views of the `Quarter Year` and use this as the join in Tableau, so that the charts would filter accross each other.
 
-Finally, the dashboard was punlished on [Tableau Public](https://public.tableau.com/app/profile/esteban.ginocchio.silva/viz/Individual-CreateTableauCharts/IndividualDashboard?publish=yes)
+Finally, I pulished the dashboard on [Tableau Public](https://public.tableau.com/app/profile/esteban.ginocchio.silva/viz/Individual-CreateTableauCharts/IndividualDashboard?publish=yes)
