@@ -1,6 +1,6 @@
 # Group Create SQL Views 
 ## GROUP PROJECT 3
-*Eva Dunn, Mich Iwata, Esteban Ginocchio Silva*
+*Eva, Mich, Esteban*
 
 1.  Student info (quick view of names, email & date joined, address & studentkey) 
 ```sql
