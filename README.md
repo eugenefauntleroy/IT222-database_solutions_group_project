@@ -1,9 +1,5 @@
 # Designing-Database-Solutions
 
----
-
-# IT222 Database Solutions Group Project
-
 This project involves creating SQL views and using Docker to set up a PostgreSQL database and a PgAdmin4 service. For this example, a college course and student data retreaval system is used. 
 
 ## Prerequisites
