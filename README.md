@@ -1,7 +1,5 @@
 # Designing-Database-Solutions
 
-Sure, here's a comprehensive README file for the project:
-
 ---
 
 # IT222 Database Solutions Group Project
